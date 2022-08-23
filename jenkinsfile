@@ -1,1 +1,6 @@
-echo "hai"
+stage('build test') {
+      echo 'boss'
+  }
+stage('SCM Checkout'){
+       git branch: '', url: 'https://github.com/nooboys/b1may.git'
+    }
